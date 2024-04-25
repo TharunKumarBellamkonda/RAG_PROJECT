@@ -7,7 +7,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_core.runnables import RunnablePassthrough
 
 # Load the embedding model
-embedding_model = GoogleGenerativeAIEmbeddings(google_api_key="AIzaSyC2Bztff9XtDCDrCJfMJ8py9JaT8VkwSlY", model="models/embedding-001")
+embedding_model = GoogleGenerativeAIEmbeddings(google_api_key="api key", model="models/embedding-001")
 st.snow()
 
 # Setting a Connection with the ChromaDB
